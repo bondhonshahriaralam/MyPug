@@ -11,7 +11,7 @@ newsapi.v2.topHeadlines({
   language: 'en',
   country: 'us'
 }).then(response => {
-  app.get('/', function(req, res){
+  app.get('https://mypug.herokuapp.com', function(req, res){
     res.render('index',{title: JSON.stringify(response["totalResults"]), paragraf: JSON.stringify(response)})
 });
 });
