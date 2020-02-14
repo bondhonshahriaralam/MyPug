@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align:center;
+    color:bisque;
+    font-size:1.5em;
+    padding:5px;
+}
+
+p{
+    text-align:center;
+    color:brown;
+    font-size:1.5em;
+    5px;
+}
+
+
+#newsTitle
+{
+    text-align:center;
+    color:bisque;
+    font-size:3em;
+    padding:5px;
+    
+}
+#newsDescription{
+    text-align:center;
+    color:bisque;
+    font-size:3em;
+    padding:5px;
+}
